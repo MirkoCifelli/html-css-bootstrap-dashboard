@@ -1,0 +1,29 @@
+.logo-little {
+    max-width: 80px;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.form-control{
+    background-color: var(--bs-tertiary-bg);
+
+}
+header .container-fluid{
+    background-color: #F8F9FA;
+}
+header .row {
+    background-color: white;
+}
+li{
+    text-decoration: none;
+}
+li a{
+    color: black;
+}
+.c-orange{
+    color: orange;
+}
+.no {
+    display: block
+  }
