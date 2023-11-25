@@ -46,27 +46,24 @@ li a{
     height: calc(100vh - 60px);
   }
   .main .col-lg-12{
-    padding: 30px;
+    padding: 20px;
     background-color: #1B72E8;
     /* border: 1px solid lightcoral; */
   }
   .main .col-lg-12 .col-lg-4{
-    padding: 20px;
+    /* padding: 20px; */
     /* background-color: blueviolet;
     border: 1px solid red; */
   }
   .main .col-lg-8{
-    padding: 30px;
+    /* padding: 30px; */
     /* background-color: greenyellow;
     border: 1px solid palevioletred; */
   }
   .main .col-lg-4{
-    padding: 30px;
+    /* padding: 30px; */
     /* background-color: crimson;
     border: 1px solid pink; */
-  }
-  .over{
-    overflow: auto;
   }
   /* badge */
   .my-badge{
@@ -81,4 +78,8 @@ li a{
  }
  .text-bg-warning {
   color: white!important;
+ }
+ /* hover */
+ .list-unstyled li:hover{
+  background-color: rgba(255, 255, 255, 0.6);
  }
