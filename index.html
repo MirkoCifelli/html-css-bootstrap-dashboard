@@ -116,7 +116,7 @@
                     <div class="row full">
                         <div class="col-lg-12">
                             <div class="row">
-                                <div class="col-lg-8">
+                                <div class="col-lg-6 order-2 order-md-1">
                                     <div>
                                         <h4 class="text-white d-inline-block">Boolean</h4>
                                         <span class="badge my-badge rounded-pill mx-1"> Piano blaze</span>
@@ -126,20 +126,113 @@
                                 
                                     <div>
                                         <span class="badge my-badge rounded-pill mx-1"> 3app</span>
-                                        <span class="badge"><i class="bi bi-chevron-double-right"></i> </span> 
-                                        <span class="badge my-badge rounded-pill mx-1"> Boolean mobile app</span>
-                                        <span class="badge my-badge rounded-pill mx-1"> Boolean web app</span>
-                                        <span class="badge my-badge rounded-pill mx-1"> Boolean blog app</span>
+                                        <span class="badge"><i class="bi bi-chevron-double-right"></i> </span>
+                                        <span class="badge my-badge rounded-pill mx-1 d-lg-none">+</span>
+                                        <span class="badge my-badge rounded-pill mx-1 d-none d-lg-inline"> Boolean mobile app</span>
+                                        <span class="badge my-badge rounded-pill mx-1 d-none d-lg-inline"> Boolean web app</span>
+                                        <span class="badge my-badge rounded-pill mx-1 d-none d-lg-inline"> Boolean blog app</span>
                                     </div>
                                 </div>
-                                <div class="col-lg-2 text-white">
+                                <div class="col-lg-3 text-white order-3 order-md-2">
                                     <span>Stupendi online negli ultimi 30 minuti</span>
                                     <h4 class="fs-2 mt-2">125</h4>
                                 </div>
-                                <div class="col-lg-2 text-white">
+                                <div class="col-lg-3 text-white order-1 order-md-3">
                                     <span>
                                         Nuovo Studente
                                     </span>
+                                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-plus-square fs-3"></i></button>
+
+                                    <div class="offcanvas offcanvas-end w-50 d-inline-block" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <div class="mb-3">
+                                            <div class="d-flex gap-4">
+                                                <div class="w-50">
+                                                    <label for="name" class="form-label">  Nome</label>
+                                                    <input type="text" class="form-control" id="name">
+                                                </div>
+
+                                                <div class="w-50">
+                                                    <label for="surname" class="form-label">Cognome</label>
+                                                    <input type="text" class="form-control" id="surname">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <div class="d-flex gap-4">
+                                                <div class="w-50">
+                                                    <label for="email" class="form-label">Email</label>
+                                                    <div class="input-group flex-nowrap">
+                                                        <span class="input-group-text" id="addon-wrapping">@</span>
+                                                        <input type="email" class="form-control" aria-label="Username" aria-describedby="addon-wrapping" id="email">
+                                                    </div>
+                                                </div>
+                                                <div class="w-50">
+                                                    <label for="password" class="form-label">Password</label>
+                                                    <input type="password" id="password" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <div class="d-flex gap-4">
+                                                <div class="w-50">
+                                                    <label for="email" class="form-label">Indirizzo Email</label>
+                                                    <div class="input-group flex-nowrap">
+                                                        <span class="input-group-text" id="addon-wrapping">@</span>
+                                                        <input type="email" class="form-control" aria-label="Username" aria-describedby="addon-wrapping" id="email">
+                                                    </div>
+                                                </div>
+                                                <div class="w-50">
+                                                    <label for="password" class="form-label">Password</label>
+                                                    <input type="password" id="password" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="address" class="form-label">Indirizzo</label>
+                                            <input type="text" class="form-control" id="address">
+                                        </div>
+                                        <div class="mb-3">
+                                            <div class="d-flex gap-4">
+                                                <div class="w-50">
+                                                    <label for="town" class="form-label">Città</label>
+                                                    <input type="text" class="form-control" id="town">
+                                                </div>
+                                                <div class="w-25">
+                                                    <label for="state" class="form-label">Stato</label>
+                                                    <select class="form-select" id="state">
+                                                        <option selected> Scegli...</option>
+                                                        <option value="1">Italia</option>
+                                                        <option value="2">Francia</option>
+                                                        <option value="3">Spagna</option>
+                                                    </select>
+                                                </div>
+                                                <div class="w-25">
+                                                    <label for="cap" class="form-label">CAP</label>
+                                                    <input type="text" class="form-control" id="cap">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="filefoto" class="form-label">Foto</label>
+                                            <input class="form-control" type="file" id="filefoto">
+                                        </div>
+                                        <div class="mb-3">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox"id="checkbox">
+                                                <label class="form-check-label" for="checkbox">Seleziona per proseguire</label>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="btn btn-primary">Salva</button>
+                                        <button type="button" class="btn btn-warning">Svuota</button>
+                                    </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
