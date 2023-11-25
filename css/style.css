@@ -48,7 +48,7 @@ li a{
   .main .col-lg-12{
     padding: 30px;
     background-color: #1B72E8;
-    border: 1px solid lightcoral;
+    /* border: 1px solid lightcoral; */
   }
   .main .col-lg-12 .col-lg-4{
     padding: 20px;
@@ -62,8 +62,8 @@ li a{
   }
   .main .col-lg-4{
     padding: 30px;
-    background-color: crimson;
-    border: 1px solid pink;
+    /* background-color: crimson;
+    border: 1px solid pink; */
   }
   .over{
     overflow: auto;
@@ -72,3 +72,4 @@ li a{
   .my-badge{
     background-color:#165BBA;
   }
+ 
