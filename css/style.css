@@ -52,13 +52,13 @@ li a{
   }
   .main .col-lg-12 .col-lg-4{
     padding: 20px;
-    background-color: blueviolet;
-    border: 1px solid red;
+    /* background-color: blueviolet;
+    border: 1px solid red; */
   }
   .main .col-lg-8{
     padding: 30px;
-    background-color: greenyellow;
-    border: 1px solid palevioletred;
+    /* background-color: greenyellow;
+    border: 1px solid palevioletred; */
   }
   .main .col-lg-4{
     padding: 30px;
@@ -72,4 +72,13 @@ li a{
   .my-badge{
     background-color:#165BBA;
   }
- 
+  .img-avatar{
+    width: 30px;
+    height: 30px;
+  }
+ th{
+  font-weight: normal;
+ }
+ .text-bg-warning {
+  color: white!important;
+ }
